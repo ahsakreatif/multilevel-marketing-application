@@ -136,7 +136,7 @@ export default function EpinList({isOpen, setIsOpen, closeModal, refetcher, epin
                 leaveTo="opacity-0 scale-95"
               >
                 <div className="inline-block w-full max-w-[800px] pb-4 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-[3px]">
-                    <div className="flex items-center bg-indigo-700 text-white py-4 px-4 mb-6 font-medium text-lg text-left rounded-t-[3px]">
+                    <div className="flex items-center bg-teal-700 text-white py-4 px-4 mb-6 font-medium text-lg text-left rounded-t-[3px]">
                         Epin List
                     </div>
                     <div className="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8">
@@ -209,7 +209,7 @@ export default function EpinList({isOpen, setIsOpen, closeModal, refetcher, epin
 															className={`${
 																copy.value == epin?.code
 																	? "bg-blue-500"
-																	: "bg-blue-800"
+																	: "bg-green-800"
 															}  text-white  flex items-center justify-center cursor-pointer rounded-md transition-all duration-100`}
                                                         >{copy.value == epin?.code
 																	? "Copied"
@@ -291,7 +291,7 @@ export default function EpinList({isOpen, setIsOpen, closeModal, refetcher, epin
                                         </button>
                                         </>
                                     ) : (
-                                        <button onClick={createNewEpin} className=' cursor-pointer bg-indigo-700 text-white font-normal px-4 py-1 rounded-md' >Add new Epin</button>
+                                        <button onClick={createNewEpin} className=' cursor-pointer bg-teal-700 text-white font-normal px-4 py-1 rounded-md' >Add new Epin</button>
                                     )}
                                     </div>
                                     <div onClick={closeModal} className="bg-red-500 text-white font-normal px-4 py-1 rounded-md cursor-pointer">

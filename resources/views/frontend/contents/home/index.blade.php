@@ -36,7 +36,7 @@
                 <div class="text-center">
                     <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
                         <span class="block">{{ config('mlm.home_content.top_h1_first') }}</span>
-                        <span class="block text-indigo-600">{{ config('mlm.home_content.top_h1_second') }}</span>
+                        <span class="block text-teal-600">{{ config('mlm.home_content.top_h1_second') }}</span>
                     </h1>
                     <p class="mx-auto mt-3 max-w-md text-base text-gray-500 sm:text-lg md:mt-5 md:max-w-3xl md:text-xl">{{ config('mlm.home_content.top_p_tag') }}</p>
                 </div>
@@ -81,7 +81,7 @@
             <span class="block">Some of Our</span>
             <span class="block text-indigo-500">Trending {{ auth()->check() ? "Products" : "Package" }}</span>
         </h1>
-        <div class="bg-indigo-600/20 rounded-xl">
+        <div class="bg-teal-600/20 rounded-xl">
             <div class="mx-auto p-4 sm:p-8">
                 <div class="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
 

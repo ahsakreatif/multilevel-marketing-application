@@ -16,11 +16,11 @@
     <div class="grid lg:grid-cols-4 gap-4">
         @forelse ($rewards as $reward)
         @if (count($reward->reward_users))
-        <button data-modal="modal-view-user" onclick="showImageSlider({{ $reward->images }})" class="relative w-full h-44 bg-indigo-800 text-white rounded-md hover:bg-indigo-600">
+        <button data-modal="modal-view-user" onclick="showImageSlider({{ $reward->images }})" class="relative w-full h-44 bg-indigo-800 text-white rounded-md hover:bg-teal-600">
             @if (count($reward->images))
                 <img src="{{$reward->images[0]->url}}" alt="reward-image" class="h-full w-full object-cover rounded-md">
             @endif
-            <div class="w-full h-full flex justify-center items-center text-xl absolute top-0 bottom-0 left-0 right-0 rounded-md bg-indigo-600/20">
+            <div class="w-full h-full flex justify-center items-center text-xl absolute top-0 bottom-0 left-0 right-0 rounded-md bg-teal-600/20">
                 <h1 class="text-xl">{{ $reward->designation }}</h1>
             </div>
         </button>

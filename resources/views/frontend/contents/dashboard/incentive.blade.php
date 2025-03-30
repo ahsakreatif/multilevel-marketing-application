@@ -18,7 +18,7 @@
     <form class="my-2 flex justify-center items-center" method="POST" action="{{ route('incentive.add.bonus') }}">
         @csrf
         <input type="hidden" name="amount" value="{{ $incentive }}">
-        <button type="submit" class="rounded-full h-[50px] w-[300px] bg-indigo-800 text-white hover:bg-indigo-600 ">Add to Your Wallat</button>
+        <button type="submit" class="rounded-full h-[50px] w-[300px] bg-indigo-800 text-white hover:bg-teal-600 ">Add to Your Wallat</button>
     </form>
 </div>
 @endsection

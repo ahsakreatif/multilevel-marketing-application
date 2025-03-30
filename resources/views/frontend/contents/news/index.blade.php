@@ -12,7 +12,7 @@
         <div class="-mx-4 flex flex-wrap justify-center">
             <div class="w-full px-4">
                 <div class="mx-auto mb-[60px] max-w-[510px] text-center lg:mb-20">
-                    <span class="text-indigo-600 mb-2 block text-lg font-semibold">
+                    <span class="text-teal-600 mb-2 block text-lg font-semibold">
                         Our News
                     </span>
                     <h2 class="text-dark mb-4 text-3xl font-bold sm:text-4xl md:text-[40px]">
@@ -33,11 +33,11 @@
                     <img src="{{ $row->image ? $row->image->url : '' }}" alt="image" class="w-full h-64" />
                 </div>
                 <div>
-                    <span class="bg-indigo-600 mb-5 inline-block rounded py-1 px-4 text-center text-xs font-semibold leading-loose text-white">
+                    <span class="bg-teal-600 mb-5 inline-block rounded py-1 px-4 text-center text-xs font-semibold leading-loose text-white">
                         {{ $row->created_at->format('M d, Y') }}
                     </span>
                     <h3>
-                        <a href="{{ route('new.show', $row->slug) }}" class="text-dark hover:text-indigo-600 mb-4 inline-block text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl">
+                        <a href="{{ route('new.show', $row->slug) }}" class="text-dark hover:text-teal-600 mb-4 inline-block text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl">
                             {{ $row->title }}
                         </a>
                     </h3>
@@ -52,11 +52,11 @@
                     <img src="{{ asset('frontend/images/good.jpeg') }}" alt="image" class="w-full h-64" />
                 </div>
                 <div>
-                    <span class="bg-indigo-600 mb-5 inline-block rounded py-1 px-4 text-center text-xs font-semibold leading-loose text-white">
+                    <span class="bg-teal-600 mb-5 inline-block rounded py-1 px-4 text-center text-xs font-semibold leading-loose text-white">
                         Fab 23, 2023
                     </span>
                     <h3>
-                        <a href="javascript:void(0)" class="text-dark hover:text-indigo-600 mb-4 inline-block text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl">
+                        <a href="javascript:void(0)" class="text-dark hover:text-teal-600 mb-4 inline-block text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl">
                             Good Income
                         </a>
                     </h3>
@@ -72,11 +72,11 @@
                     <img src="{{ asset('frontend/images/leader.jpeg') }}" alt="image" class="w-full h-64" />
                 </div>
                 <div>
-                    <span class="bg-indigo-600 mb-5 inline-block rounded py-1 px-4 text-center text-xs font-semibold leading-loose text-white">
+                    <span class="bg-teal-600 mb-5 inline-block rounded py-1 px-4 text-center text-xs font-semibold leading-loose text-white">
                         Fab 23, 2023
                     </span>
                     <h3>
-                        <a href="javascript:void(0)" class="text-dark hover:text-indigo-600 mb-4 inline-block text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl">
+                        <a href="javascript:void(0)" class="text-dark hover:text-teal-600 mb-4 inline-block text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl">
                             Leaders Forum
                         </a>
                     </h3>

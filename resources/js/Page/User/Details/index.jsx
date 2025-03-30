@@ -47,7 +47,7 @@ export default function UserDetails({ showUserDetails, setUserDetails }) {
             title: "User Login Logs",
             placeholder: "Login Logs",
             colorClass:
-                "bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500",
+                "bg-teal-600 hover:bg-teal-700 focus:ring-indigo-500",
             isTab: true,
             content: (
                 <>
@@ -100,7 +100,7 @@ export default function UserDetails({ showUserDetails, setUserDetails }) {
             title: "User Referrals Tree",
             placeholder: "User Tree",
             colorClass:
-                "bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500",
+                "bg-teal-600 hover:bg-teal-700 focus:ring-indigo-500",
             isTab: true,
             content: (
                 <>

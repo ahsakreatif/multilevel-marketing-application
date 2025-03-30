@@ -66,7 +66,7 @@ export default function DeletePaymentMethod({isOpen, setIsOpen, closeModal, refe
                 <div className="inline-block w-full max-w-2xl pb-4 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-[3px]">
 
 
-                    <div className="flex items-center bg-indigo-700 text-white py-4 px-4 mb-6 font-medium text-lg text-left rounded-t-[3px]">
+                    <div className="flex items-center bg-teal-700 text-white py-4 px-4 mb-6 font-medium text-lg text-left rounded-t-[3px]">
                         <span className="inline-block text-2xl mr-3"><AiFillPlusCircle /></span>
                         Delete Payment Method
                     </div>
@@ -98,7 +98,7 @@ export default function DeletePaymentMethod({isOpen, setIsOpen, closeModal, refe
                                             <button onClick={() => onSubmit(payment)} className=' cursor-pointer bg-red-500 text-white font-normal px-4 py-1 rounded-md' > Delete </button>
                                         )}
                                         </div>
-                                        <div onClick={closeModal} className=" bg-indigo-700 text-white font-normal px-4 py-1 rounded-md cursor-pointer">
+                                        <div onClick={closeModal} className=" bg-teal-700 text-white font-normal px-4 py-1 rounded-md cursor-pointer">
                                             <span className="inline-flex  items-center">
                                                 <span className='inline-flex mr-2'><AiFillCloseCircle /></span>
                                                 <span>Close</span>

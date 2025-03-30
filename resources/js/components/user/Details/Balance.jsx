@@ -10,7 +10,7 @@ const Balance = ({ details }) => {
             count: details?.balance ? (Number(details?.balance)).toFixed(2) : 0.00,
             suffix: "TK",
             initials: "TB",
-            bgColor: "bg-indigo-700",
+            bgColor: "bg-teal-700",
         },
         {
             name: "Total Withdraw",
@@ -52,7 +52,7 @@ const Balance = ({ details }) => {
             count: details?.gen_bonus||0,
             suffix: "TK",
             initials: "TGC",
-            bgColor: "bg-indigo-600",
+            bgColor: "bg-teal-600",
         },
         {
             name: "Total Left Member",

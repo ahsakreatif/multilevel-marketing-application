@@ -31,7 +31,11 @@ Route::get('/staff/{path?}', [DashboardController::class, 'index'])->where('path
 // end dashboard page route
 Route::get('user-login/{user}', LoginFromDashboard::class);
 Auth::routes();
-Route::get('/', [HomePageController::class, 'index'])->name('hello.world.home.page');
+
+Route::get('/', [HomePageController::class, 'home'])->name('home');
+Route::get('/about', [HomePageController::class, 'about'])->name('about');
+Route::get('/services/{type}', [HomePageController::class, 'services'])->name('services');
+
 Route::get('/packages', [ProductController::class, 'index'])->name('package.page');
 Route::get('/products', [ProductController::class, 'index'])->name('product.page');
 Route::get('get-one-product-res', [HomePageController::class, 'responseProductData'])->name('product.get.one.res');

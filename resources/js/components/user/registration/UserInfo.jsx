@@ -66,7 +66,7 @@ const UserInfo = ({ setTab, backendError }) => {
                     type="text"
                     backendValidationError={backendError?.first_name}
                     error={errors.first_name}
-                    classInput="ring-1 ring-indigo-600"
+                    classInput="ring-1 ring-teal-600"
                 />
                 <Textinput
                     label="Last name"
@@ -76,7 +76,7 @@ const UserInfo = ({ setTab, backendError }) => {
                     type="text"
                     backendValidationError={backendError?.last_name}
                     error={errors.last_name}
-                    classInput="ring-1 ring-indigo-600"
+                    classInput="ring-1 ring-teal-600"
                 />
                 <Textinput
                     label="Username"
@@ -86,7 +86,7 @@ const UserInfo = ({ setTab, backendError }) => {
                     type="text"
                     backendValidationError={backendError?.username}
                     error={errors.username}
-                    classInput="ring-1 ring-indigo-600"
+                    classInput="ring-1 ring-teal-600"
                 />
                 <Textinput
                     label="Email"
@@ -96,7 +96,7 @@ const UserInfo = ({ setTab, backendError }) => {
                     type="email"
                     backendValidationError={backendError?.email}
                     error={errors.email}
-                    classInput="ring-1 ring-indigo-600"
+                    classInput="ring-1 ring-teal-600"
                 />
                 <Textinput
                     label="Phone"
@@ -106,7 +106,7 @@ const UserInfo = ({ setTab, backendError }) => {
                     type="text"
                     backendValidationError={backendError?.phone}
                     error={errors.phone}
-                    classInput="ring-1 ring-indigo-600"
+                    classInput="ring-1 ring-teal-600"
                 />
                 <Textinput
                     label="Password"
@@ -116,7 +116,7 @@ const UserInfo = ({ setTab, backendError }) => {
                     type="password"
                     backendValidationError={backendError?.password}
                     error={errors.password}
-                    classInput="ring-1 ring-indigo-600"
+                    classInput="ring-1 ring-teal-600"
                 />
                 <Textinput
                     label="Confirmed Password"
@@ -126,18 +126,18 @@ const UserInfo = ({ setTab, backendError }) => {
                     type="password"
                     backendValidationError={backendError?.confirm_password}
                     error={errors.confirm_password}
-                    classInput="ring-1 ring-indigo-600"
+                    classInput="ring-1 ring-teal-600"
                 />
                 <div className="flex justify-between items-center py-2 my-4">
                     <button
                         onClick={() => setTab("sponsor")}
-                        className="inline-flex items-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                        className="inline-flex items-center rounded-md border border-transparent bg-teal-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-teal-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
                     >
                         Back
                     </button>
                     <button
                         type="submit"
-                        className="inline-flex items-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                        className="inline-flex items-center rounded-md border border-transparent bg-teal-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-teal-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
                     >
                         Continue
                     </button>

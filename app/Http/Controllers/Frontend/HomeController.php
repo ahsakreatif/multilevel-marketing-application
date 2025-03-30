@@ -56,6 +56,21 @@ class HomeController extends Controller
         ]);
     }
 
+    public function home()
+    {
+        return view('pages.home');
+    }
+
+    public function about()
+    {
+        return view('pages.about');
+    }
+
+    public function services($type)
+    {
+        return view('pages.services', ['type' => $type]);
+    }
+
     public function responseProductData (Request $request) {
         if (request()->json()) {
             $id = $request->id;

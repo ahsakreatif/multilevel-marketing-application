@@ -35,7 +35,7 @@
                         @if ($step["status"] === "complete")
                         <div class="group flex w-full items-center">
                             <span class="flex items-center px-6 py-4 text-sm font-medium">
-                                <span class="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-indigo-600">
+                                <span class="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-teal-600">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                                       </svg>
@@ -52,12 +52,12 @@
                                 class="flex items-center px-6 py-4 text-sm font-medium"
                                 aria-current="step"
                             >
-                                <span class="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full border-2 border-indigo-600">
-                                    <span class="text-indigo-600">
+                                <span class="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full border-2 border-teal-600">
+                                    <span class="text-teal-600">
                                        {{  $step["id"] }}
                                     </span>
                                 </span>
-                                <span class="ml-4 text-sm font-medium text-indigo-600">
+                                <span class="ml-4 text-sm font-medium text-teal-600">
                                    {{  $step["name"] }}
                                 </span>
                             </div>
@@ -205,10 +205,10 @@
                     <input type="hidden" name="password" value="{{ $password }}">
                     <div class="form-group">
                         <label for="epin_id">E-Pin Code</label>
-                        <input type="text" name="epin_code" class="form-control !ring-1 !ring-indigo-600">
+                        <input type="text" name="epin_code" class="form-control !ring-1 !ring-teal-600">
                     </div>
                     <div class="flex justify-center items-center">
-                        <button type="submit" class="mt-3 inline-flex items-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Continue</button>
+                        <button type="submit" class="mt-3 inline-flex items-center rounded-md border border-transparent bg-teal-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-teal-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Continue</button>
                     </div>
                 </form>
             </div>

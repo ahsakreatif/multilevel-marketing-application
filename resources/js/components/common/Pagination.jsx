@@ -118,10 +118,10 @@ const Pagination = ({ total, pageSize, handlePageChange, pageNumber }) => {
         setCurrentPageValue(pageSize)
     }, [pageNumber, pageSize])
 
-    const previousATagStyle = 'relative inline-flex items-center px-4 py-2 border text-md font-medium bg-blue-100 text-indigo-500 rounded-l-[10px]';
+    const previousATagStyle = 'relative inline-flex items-center px-4 py-2 border text-md font-medium bg-green-100 text-teal-500 rounded-l-[10px]';
     const dynamicATagStyle = ''
-    const nextStyle = "relative inline-flex items-center px-2 py-2 border text-md font-medium rounded-r-[10px] bg-blue-100 text-indigo-500"
-    const currentPageButtonStyle = 'bg-indigo-600 text-white'
+    const nextStyle = "relative inline-flex items-center px-2 py-2 border text-md font-medium rounded-r-[10px] bg-green-100 text-teal-500"
+    const currentPageButtonStyle = 'bg-teal-600 text-white'
     const renderPageNumbers = Pagenum()?.map((number, i) => {
 
         return (
@@ -154,7 +154,7 @@ const Pagination = ({ total, pageSize, handlePageChange, pageNumber }) => {
 
                     <div className="ml-5">
                         <input type="number" onChange={(e) => setCustomPage(e.target.value)} className="px-2 py-2 w-20 rounded-lg border border-slate-300 mr-2  focus:outline-none focus:shadow-none" />
-                        <button onClick={setCustomPageHandle} className="bg-indigo-600 text-white py-2 px-2 hover:bg-blue-900 rounded-md">GO</button>
+                        <button onClick={setCustomPageHandle} className="bg-teal-600 text-white py-2 px-2 hover:bg-blue-900 rounded-md">GO</button>
                     </div>
                 </div>
 

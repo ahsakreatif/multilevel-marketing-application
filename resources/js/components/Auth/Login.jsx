@@ -88,37 +88,78 @@ const Login = () => {
      }
   return (
     <>
-        <div className="w-screen h-screen flex items-center justify-center">
-          <div className='w-1/2 mx-auto mt-[100px]'>
-              <div className='text-center'>
-                  <h1 className=' text-blue-600 text-xl mb-24'>Please Enter Your Login Credintials</h1>
-
+        <div className="w-screen h-screen flex items-center justify-center bg-gray-50 bg-teal-800">
+          <div className="w-full max-w-6xl mx-auto flex shadow-lg rounded-xl overflow-hidden bg-white">
+            <div className="hidden lg:block w-1/2 bg-teal-600">
+                <img
+                    src="/img/pexels-photo-7615461.webp"
+                    alt="Login illustration"
+                    className="w-full h-full object-cover"
+                />
+            </div>
+            <div className="w-full lg:w-1/2 px-8 py-12 sm:px-12">
+              <div className="text-center mb-8">
+              <a href="/">
+                <img
+                  className="h-36 w-auto mx-auto mb-4"
+                  src="/logo.png"
+                  alt="AydinMuamalat logo"
+                />
+              </a>
+                <h1 className="text-2xl font-bold text-teal-600">Welcome Back!</h1>
+                <p className="text-gray-500 mt-2">Please sign in to your account</p>
               </div>
 
-              <div>
-                  <form onSubmit={handleSubmit(onSubmit)} action="">
-                      <div>
-                          <label htmlFor="username" className='text-gray-500 font-semibold'>Username</label>
-                          <input type="text"
-                              {...register("username")}
-                              className='w-full h-12 rounded-lg outline-none px-4 text-gray-700 border-2'   />
-                              <p className='text-red-500 italic font-light py-2'>{errors.username?.message ?? backendError?.username}</p>
-                      </div>
-                      <div className='my-4'>
-                          <label htmlFor="password" className='text-gray-500 font-semibold'>Password</label>
-                          <input type="password"
-                          {...register("password")}
-                          className='w-full h-12 rounded-lg outline-none px-4 text-gray-700 border-2'   />
-                            <p className='text-red-500 italic font-light py-2'>{errors.username?.message ?? backendError?.password}</p>
-                      </div>
-                      <div className='flex justify-center items-center'>
-                          <button type='submit' className='px-4 py-2 text-white bg-gray-800 hover:bg-gray-600 my-4 rounded-md'>Submit</button>
-                      </div>
-                      <div className='flex items-center justify-center'>
-                        <Link to="/staff/email-validation" className='underline hover:text-gray-500'>Forgot Password?</Link>
-                      </div>
-                  </form>
-              </div>
+              <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
+                <div>
+                  <label htmlFor="username" className="block text-sm font-medium text-gray-700">
+                    Username
+                  </label>
+                  <div className="mt-1">
+                    <input
+                      type="text"
+                      {...register("username")}
+                      className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
+                      placeholder="Enter your username"
+                    />
+                    <p className="text-red-500 text-sm mt-1">{errors.username?.message ?? backendError?.username}</p>
+                  </div>
+                </div>
+
+                <div>
+                  <label htmlFor="password" className="block text-sm font-medium text-gray-700">
+                    Password
+                  </label>
+                  <div className="mt-1">
+                    <input
+                      type="password"
+                      {...register("password")}
+                      className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition"
+                      placeholder="Enter your password"
+                    />
+                    <p className="text-red-500 text-sm mt-1">{errors.username?.message ?? backendError?.password}</p>
+                  </div>
+                </div>
+
+                <div>
+                  <button
+                    type="submit"
+                    className="w-full py-3 px-4 text-white text-sm font-semibold bg-teal-600 hover:bg-teal-700 rounded-lg transition duration-200 ease-in-out transform hover:-translate-y-1 hover:shadow-lg"
+                  >
+                    Sign In
+                  </button>
+                </div>
+
+                <div className="text-center">
+                  <Link
+                    to="/staff/email-validation"
+                    className="text-sm font-medium text-teal-600 hover:text-teal-500 transition"
+                  >
+                    Forgot your password?
+                  </Link>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
     </>

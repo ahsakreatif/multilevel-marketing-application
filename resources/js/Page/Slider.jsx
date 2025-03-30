@@ -88,7 +88,7 @@ const Slider = () => {
                                 <div className="mt-4 sm:mt-0 sm:ml-16 sm:flex-none">
                                     <button
                                         type="button"
-                                        className="inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:w-auto"
+                                        className="inline-flex items-center justify-center rounded-md border border-transparent bg-teal-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-teal-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:w-auto"
                                         onClick={() => createSlider()}
                                     >
                                         Add New Slider Image
@@ -179,7 +179,7 @@ const Slider = () => {
                                                                         <td className="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">
                                                                             <div className="flex gap-2 justify-end">
                                                                                 <button
-                                                                                    className="text-indigo-600 font-normal hover:text-indigo-700 hover:underline"
+                                                                                    className="text-teal-600 font-normal hover:text-indigo-700 hover:underline"
                                                                                     onClick={() =>
                                                                                         editSlider(
                                                                                             slider

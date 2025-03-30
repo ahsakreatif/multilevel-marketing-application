@@ -68,7 +68,7 @@ const Create = () => {
                             {step.status === "complete" ? (
                                 <div className="group flex w-full items-center">
                                     <span className="flex items-center px-6 py-4 text-sm font-medium">
-                                        <span className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-indigo-600">
+                                        <span className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-teal-600">
                                             <CheckIcon
                                                 className="h-6 w-6 text-white"
                                                 aria-hidden="true"
@@ -84,12 +84,12 @@ const Create = () => {
                                     className="flex items-center px-6 py-4 text-sm font-medium"
                                     aria-current="step"
                                 >
-                                    <span className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full border-2 border-indigo-600">
-                                        <span className="text-indigo-600">
+                                    <span className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full border-2 border-teal-600">
+                                        <span className="text-teal-600">
                                             {step.id}
                                         </span>
                                     </span>
-                                    <span className="ml-4 text-sm font-medium text-indigo-600">
+                                    <span className="ml-4 text-sm font-medium text-teal-600">
                                         {step.name}
                                     </span>
                                 </div>

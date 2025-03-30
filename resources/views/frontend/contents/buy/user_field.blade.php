@@ -35,7 +35,7 @@
                         @if ($step["status"] === "complete")
                         <div class="group flex w-full items-center">
                             <span class="flex items-center px-6 py-4 text-sm font-medium">
-                                <span class="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-indigo-600">
+                                <span class="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-teal-600">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                                       </svg>
@@ -52,12 +52,12 @@
                                 class="flex items-center px-6 py-4 text-sm font-medium"
                                 aria-current="step"
                             >
-                                <span class="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full border-2 border-indigo-600">
-                                    <span class="text-indigo-600">
+                                <span class="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full border-2 border-teal-600">
+                                    <span class="text-teal-600">
                                        {{  $step["id"] }}
                                     </span>
                                 </span>
-                                <span class="ml-4 text-sm font-medium text-indigo-600">
+                                <span class="ml-4 text-sm font-medium text-teal-600">
                                    {{  $step["name"] }}
                                 </span>
                             </div>
@@ -114,7 +114,7 @@
                         <input type="hidden" name="position" value="{{ $position }}">
                         <div class="formGroup">
                             <label for="first_name">First name</label>
-                            <input type="text" name="first_name" value="{{ old('first_name') }}" class="form-control !ring-1 !ring-indigo-600 @error('first_name') has-error @enderror">
+                            <input type="text" name="first_name" value="{{ old('first_name') }}" class="form-control !ring-1 !ring-teal-600 @error('first_name') has-error @enderror">
                             @error('first_name')
                             <span class="error-message" role="alert">
                                 <strong>{{ $message }}</strong>
@@ -123,7 +123,7 @@
                         </div>
                         <div class="formGroup">
                             <label for="last_name">Last Name</label>
-                            <input type="text" name="last_name" value="{{ old('last_name') }}" class="form-control !ring-1 !ring-indigo-600 @error('last_name') has-error @enderror">
+                            <input type="text" name="last_name" value="{{ old('last_name') }}" class="form-control !ring-1 !ring-teal-600 @error('last_name') has-error @enderror">
                             @error('last_name')
                             <span class="error-message" role="alert">
                                 <strong>{{ $message }}</strong>
@@ -132,7 +132,7 @@
                         </div>
                         <div class="formGroup">
                             <label for="username">Enter username</label>
-                            <input type="text" name="username" value="{{ old('username') }}" class="form-control !ring-1 !ring-indigo-600 @error('username') has-error @enderror">
+                            <input type="text" name="username" value="{{ old('username') }}" class="form-control !ring-1 !ring-teal-600 @error('username') has-error @enderror">
                             @error('username')
                             <span class="error-message" role="alert">
                                 <strong>{{ $message }}</strong>
@@ -141,7 +141,7 @@
                         </div>
                         <div class="formGroup">
                             <label for="email">Email</label>
-                            <input type="text" name="email" value="{{ old('email') }}" class="form-control !ring-1 !ring-indigo-600 @error('email') has-error @enderror">
+                            <input type="text" name="email" value="{{ old('email') }}" class="form-control !ring-1 !ring-teal-600 @error('email') has-error @enderror">
                             @error('email')
                             <span class="error-message" role="alert">
                                 <strong>{{ $message }}</strong>
@@ -150,7 +150,7 @@
                         </div>
                         <div class="formGroup">
                             <label for="phone">Phone</label>
-                            <input type="text" name="phone" value="{{ old('phone') }}" class="form-control !ring-1 !ring-indigo-600 @error('phone') has-error @enderror">
+                            <input type="text" name="phone" value="{{ old('phone') }}" class="form-control !ring-1 !ring-teal-600 @error('phone') has-error @enderror">
                             @error('phone')
                             <span class="error-message" role="alert">
                                 <strong>{{ $message }}</strong>
@@ -159,7 +159,7 @@
                         </div>
                         <div class="formGroup">
                             <label for="password">Password</label>
-                            <input type="text" name="password" value="{{ old('password') }}" class="form-control !ring-1 !ring-indigo-600 @error('password') has-error @enderror">
+                            <input type="text" name="password" value="{{ old('password') }}" class="form-control !ring-1 !ring-teal-600 @error('password') has-error @enderror">
                             @error('password')
                             <span class="error-message" role="alert">
                                 <strong>{{ $message }}</strong>
@@ -168,10 +168,10 @@
                         </div>
                         <div class="formGroup">
                             <label for="password_confirmation">Confirm Password</label>
-                            <input type="text" name="password_confirmation" class="form-control !ring-1 !ring-indigo-600">
+                            <input type="text" name="password_confirmation" class="form-control !ring-1 !ring-teal-600">
                         </div>
                         <div class="flex justify-center items-center">
-                            <button type="submit" class="mt-3 inline-flex items-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Continue</button>
+                            <button type="submit" class="mt-3 inline-flex items-center rounded-md border border-transparent bg-teal-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-teal-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Continue</button>
                         </div>
                     </form>
                 </div>

@@ -123,7 +123,7 @@ export default function EditModal({
                                 leaveTo="opacity-0 scale-95"
                             >
                                 <div className="inline-block w-full max-w-2xl pb-4 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-[3px]">
-                                    <div className="flex items-center bg-indigo-700 text-white py-4 px-4 mb-6 font-medium text-lg text-left rounded-t-[3px]">
+                                    <div className="flex items-center bg-teal-700 text-white py-4 px-4 mb-6 font-medium text-lg text-left rounded-t-[3px]">
                                         <span className="inline-block text-2xl mr-3">
                                             <AiOutlineUserAdd />
                                         </span>
@@ -287,7 +287,7 @@ export default function EditModal({
                                                             <input
                                                                 type="submit"
                                                                 value="Save"
-                                                                className=" cursor-pointer bg-indigo-700 text-white font-normal px-4 py-1 rounded-md"
+                                                                className=" cursor-pointer bg-teal-700 text-white font-normal px-4 py-1 rounded-md"
                                                             />
                                                         )}
                                                     </div>

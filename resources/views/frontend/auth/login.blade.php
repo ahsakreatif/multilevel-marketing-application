@@ -12,7 +12,7 @@
                     <div class="row mb-3">
                         <label for="username" class="col-md-4 col-form-label text-md-end">{{ __('Username') }}</label>
                         <div class="col-md-6">
-                            <input id="username" type="text" class="form-control ring-1 ring-indigo-600 @error('username') has-error @enderror" name="username" value="{{ old('username') }}" required autocomplete="username" autofocus>
+                            <input id="username" type="text" class="form-control ring-1 ring-teal-600 @error('username') has-error @enderror" name="username" value="{{ old('username') }}" required autocomplete="username" autofocus>
 
                             @error('username')
                             <span class="error-message" role="alert">
@@ -26,7 +26,7 @@
                         <label for="password" class="col-md-4 col-form-label text-md-end">{{ __('Password') }}</label>
 
                         <div class="col-md-6">
-                            <input id="password" type="password" class="form-control ring-1 ring-indigo-600 @error('password') has-error @enderror" name="password" required autocomplete="current-password">
+                            <input id="password" type="password" class="form-control ring-1 ring-teal-600 @error('password') has-error @enderror" name="password" required autocomplete="current-password">
 
                             @error('password')
                             <span class="error-message" role="alert">
@@ -49,7 +49,7 @@
 
                     <div class="row mb-0">
                         <div class="col-md-8 offset-md-4">
-                            <button type="submit" class=" rounded-md px-4 py-2 bg-indigo-600 text-white text-lg">
+                            <button type="submit" class=" rounded-md px-4 py-2 bg-teal-600 text-white text-lg">
                                 {{ __('Login') }}
                             </button>
 

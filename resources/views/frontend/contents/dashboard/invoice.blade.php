@@ -15,7 +15,7 @@
     <div class="mt-4 sm:mt-0 sm:ml-16 sm:flex-none">
         <div class="flex flex-wrap md:flex-nowrap items-center gap-3">
             <input id="username" type="search" class="w-full max-w-[250px] h-12 my-1 rounded-md outline-none px-4 text-gray-700 border-[1px] border-indigo-700" />
-            <button type="button" class=" rounded-md h-12 px-3 py-2 bg-indigo-600 whitespace-nowrap text-white text-sm">
+            <button type="button" class=" rounded-md h-12 px-3 py-2 bg-teal-600 whitespace-nowrap text-white text-sm">
                 {{ __('Search') }}
             </button>
         </div>
@@ -51,7 +51,7 @@
                             </td>
                             <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">1020.43</td>
                             <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
-                                <a href="#" class="text-indigo-600 underline">print</a>
+                                <a href="#" class="text-teal-600 underline">print</a>
                             </td>
                             <td class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">
                                 <span class="inline-flex rounded-full bg-green-100 px-2 text-xs font-semibold leading-5 text-green-800">Active</span>
@@ -69,7 +69,7 @@
                             </td>
                             <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">1020.43</td>
                             <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
-                                <a href="#" class="text-indigo-600 underline">print</a>
+                                <a href="#" class="text-teal-600 underline">print</a>
                             </td>
                             <td class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">
                                 <span class="inline-flex rounded-full bg-green-100 px-2 text-xs font-semibold leading-5 text-green-800">Active</span>
@@ -87,7 +87,7 @@
                             </td>
                             <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">1020.43</td>
                             <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
-                                <a href="#" class="text-indigo-600 underline">print</a>
+                                <a href="#" class="text-teal-600 underline">print</a>
                             </td>
                             <td class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">
                                 <span class="inline-flex rounded-full bg-green-100 px-2 text-xs font-semibold leading-5 text-green-800">Active</span>
@@ -105,7 +105,7 @@
                             </td>
                             <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">1020.43</td>
                             <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
-                                <a href="#" class="text-indigo-600 underline">print</a>
+                                <a href="#" class="text-teal-600 underline">print</a>
                             </td>
                             <td class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">
                                 <span class="inline-flex rounded-full bg-green-100 px-2 text-xs font-semibold leading-5 text-green-800">Active</span>
@@ -123,7 +123,7 @@
                             </td>
                             <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">1020.43</td>
                             <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
-                                <a href="#" class="text-indigo-600 underline">print</a>
+                                <a href="#" class="text-teal-600 underline">print</a>
                             </td>
                             <td class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">
                                 <span class="inline-flex rounded-full bg-green-100 px-2 text-xs font-semibold leading-5 text-green-800">Active</span>
@@ -141,7 +141,7 @@
                             </td>
                             <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">1020.43</td>
                             <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
-                                <a href="#" class="text-indigo-600 underline">print</a>
+                                <a href="#" class="text-teal-600 underline">print</a>
                             </td>
                             <td class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">
                                 <span class="inline-flex rounded-full bg-green-100 px-2 text-xs font-semibold leading-5 text-green-800">Active</span>
@@ -159,7 +159,7 @@
                             </td>
                             <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">1020.43</td>
                             <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
-                                <a href="#" class="text-indigo-600 underline">print</a>
+                                <a href="#" class="text-teal-600 underline">print</a>
                             </td>
                             <td class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">
                                 <span class="inline-flex rounded-full bg-green-100 px-2 text-xs font-semibold leading-5 text-green-800">Active</span>

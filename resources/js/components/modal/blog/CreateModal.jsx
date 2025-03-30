@@ -95,7 +95,7 @@ export default function CreateModal({isOpen, setIsOpen, closeModal, refetch}) {
                 <div className="inline-block w-full max-w-2xl pb-4 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-[3px]">
 
 
-                    <div className="flex items-center bg-indigo-700 text-white py-4 px-4 mb-6 font-medium text-lg text-left rounded-t-[3px]">
+                    <div className="flex items-center bg-teal-700 text-white py-4 px-4 mb-6 font-medium text-lg text-left rounded-t-[3px]">
                         <span className="inline-block text-2xl mr-3"><AiFillPlusCircle /></span>
                         Create A Blog
                     </div>
@@ -149,7 +149,7 @@ export default function CreateModal({isOpen, setIsOpen, closeModal, refetch}) {
                                             </button>
                                             </>
                                         ) : (
-                                            <input type="submit" value="Create" className=' cursor-pointer bg-indigo-700 text-white font-normal px-4 py-1 rounded-md' />
+                                            <input type="submit" value="Create" className=' cursor-pointer bg-teal-700 text-white font-normal px-4 py-1 rounded-md' />
                                         )}
                                         </div>
                                         <div onClick={closeModal} className="bg-red-500 text-white font-normal px-4 py-1 rounded-md cursor-pointer">

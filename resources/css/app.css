@@ -11,7 +11,7 @@
 }
 
 .btn-primary {
-    @apply bg-indigo-700 text-white uppercase hover:bg-indigo-500;
+    @apply bg-teal-700 text-white uppercase hover:bg-teal-500;
 }
 
 .btn-warning {

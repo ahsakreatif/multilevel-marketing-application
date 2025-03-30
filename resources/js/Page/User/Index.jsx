@@ -201,7 +201,7 @@ const Index = () => {
                                                                             <td className="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">
                                                                                 <div className="flex gap-2 justify-end">
                                                                                     <button
-                                                                                        className="text-indigo-600 font-normal hover:text-indigo-700 hover:underline"
+                                                                                        className="text-teal-600 font-normal hover:text-indigo-700 hover:underline"
                                                                                         onClick={() =>
                                                                                             setUserDetails(
                                                                                                 user

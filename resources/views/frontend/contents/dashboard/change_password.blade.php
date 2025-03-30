@@ -46,7 +46,7 @@
         </div>
     </div>
     <div class="row mt-5">
-        <button type="submit" class=" rounded-md px-4 py-2 bg-indigo-600 text-white text-lg">
+        <button type="submit" class=" rounded-md px-4 py-2 bg-teal-600 text-white text-lg">
             {{ __('Change Password') }}
         </button>
     </div>

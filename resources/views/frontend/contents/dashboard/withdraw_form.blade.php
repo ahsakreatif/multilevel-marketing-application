@@ -6,7 +6,7 @@
         @include('frontend.layouts.partials.flash-alert')
         <div class="flex flex-wrap flex-row gap-2 my-4">
             @foreach ($payment_methods as $payment)
-                <a  href="{{ url('withdraw/request/?method='.$payment->id) }}" class="px-4 py-4 text-center font-semibold rounded-md mx-1 {{ isset($method) && $method == $payment->id ?  "bg-indigo-700 text-white" : "bg-gray-300 hover:bg-indigo-500 text-gray-500 hover:text-white" }} ">{{ $payment->name }}</a>
+                <a  href="{{ url('withdraw/request/?method='.$payment->id) }}" class="px-4 py-4 text-center font-semibold rounded-md mx-1 {{ isset($method) && $method == $payment->id ?  "bg-teal-700 text-white" : "bg-gray-300 hover:bg-indigo-500 text-gray-500 hover:text-white" }} ">{{ $payment->name }}</a>
             @endforeach
         </div>
         <form class="mb-2 mt-8 p-6 lg:p-10 bg-white border-1 border-gray-200 rounded-lg" method="POST" action="{{ route('withdraw.balance') }}">
@@ -60,7 +60,7 @@
                 </span>
                 @enderror
             </div>
-            <button type="submit" class="rounded-full mt-5 h-[50px] w-full max-w-[300px] bg-indigo-800 text-white hover:bg-indigo-600 ">Submit</button>
+            <button type="submit" class="rounded-full mt-5 h-[50px] w-full max-w-[300px] bg-indigo-800 text-white hover:bg-teal-600 ">Submit</button>
         </form>
     </div>
 @endsection

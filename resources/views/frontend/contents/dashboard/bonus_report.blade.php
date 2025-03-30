@@ -15,7 +15,7 @@
     {{-- <div class="mt-4 sm:mt-0 sm:ml-16 sm:flex-none">
         <div class="flex flex-wrap md:flex-nowrap items-center gap-3">
             <input id="username" type="search" class="w-full max-w-[250px] h-12 my-1 rounded-md outline-none px-4 text-gray-700 border-[1px] border-indigo-700" />
-            <button type="button" class=" rounded-md h-12 px-3 py-2 bg-indigo-600 whitespace-nowrap text-white text-sm">
+            <button type="button" class=" rounded-md h-12 px-3 py-2 bg-teal-600 whitespace-nowrap text-white text-sm">
                 {{ __('Search') }}
     </button>
 </div>

@@ -51,18 +51,18 @@ const Sidebar = () => {
     };
 
     const navigation = [
-        { name: "Dashboard", href: "/staff/dashboard", icon: HomeIcon },
+        // { name: "Dashboard", href: "/staff/dashboard", icon: HomeIcon },
         { name: "Category", href: "/staff/category", icon: ClockIcon },
         { name: "Package", href: "/staff/package", icon: ClipboardDocumentListIcon },
-        { name: "Slider", href: "/staff/slider", icon: PhotoIcon },
-        { name: "Gallery", href: "/staff/gallery", icon: CameraIcon },
+        // { name: "Slider", href: "/staff/slider", icon: PhotoIcon },
+        // { name: "Gallery", href: "/staff/gallery", icon: CameraIcon },
         { name: "Epin", href: "/staff/epin", icon: ShieldCheckIcon },
-        { name: "Reward", href: "/staff/reward", icon: CreditCardIcon },
+        // { name: "Reward", href: "/staff/reward", icon: CreditCardIcon },
         { name: "Payment Method", href: "/staff/payment-method", icon: BanknotesIcon },
-        { name: "Blogs", href: "/staff/blogs", icon: ClipboardDocumentIcon },
-        { name: "FAQ", href: "/staff/faq", icon: QuestionMarkCircleIcon },
-        { name: "Contact Us", href: "/staff/contact", icon: DevicePhoneMobileIcon },
-        { name: "Social Link", href: "/staff/social-link", icon: LinkIcon },
+        // { name: "Blogs", href: "/staff/blogs", icon: ClipboardDocumentIcon },
+        // { name: "FAQ", href: "/staff/faq", icon: QuestionMarkCircleIcon },
+        // { name: "Contact Us", href: "/staff/contact", icon: DevicePhoneMobileIcon },
+        // { name: "Social Link", href: "/staff/social-link", icon: LinkIcon },
         {
             name: "Users",
             icon: UsersIcon,
@@ -72,14 +72,14 @@ const Sidebar = () => {
                 { name: "Users Tree", href: "/staff/users/binary-tree" },
             ],
         },
-        {
+        /* {
             name: "Bonus",
             icon: GifIcon,
             children: [
                 { name: "Incentive", href: "/staff/bonus/incentive" },
             ],
-        },
-        {
+        }, */
+        /* {
             name: "Report",
             icon: BookOpenIcon,
             children: [
@@ -97,7 +97,7 @@ const Sidebar = () => {
                 { name: "Reward", href: "/staff/reports/rewards" },
                 { name: "Login History", href: "/staff/reports/login-history" },
             ],
-        },
+        }, */
         {
             name: "Settings",
             icon: Cog8ToothIcon,
@@ -182,12 +182,12 @@ const Sidebar = () => {
                                         </button>
                                     </div>
                                 </Transition.Child>
-                                <div className="flex flex-shrink-0 items-center px-4">
+                                <div className="flex flex-shrink-0 items-center px-4 text-white">
                                     <img
-                                        className="h-8 w-auto"
-                                        src="https://tailwindui.com/img/logos/mark.svg?color=cyan&shade=300"
-                                        alt="Easywire logo"
-                                    />
+                                        className="h-8 w-auto mr-2"
+                                        src="/logo-alt.png"
+                                        alt="AydinMuamalat logo"
+                                    /> AydinMuamalat
                                 </div>
                                 <nav
                                     className="mt-5 h-full flex-shrink-0 divide-y divide-cyan-800 overflow-y-auto"
@@ -236,8 +236,8 @@ const Sidebar = () => {
                                                                         }
                                                                         className={classNames(
                                                                             (activePatch == subItem.href
-                                                                                ? "text-gray-300 bg-indigo-600"
-                                                                                : "text-gray-300/80 hover:text-gray-300 hover:bg-indigo-600"
+                                                                                ? "text-gray-300 bg-teal-600"
+                                                                                : "text-gray-300/80 hover:text-gray-300 hover:bg-teal-600"
                                                                             ),
                                                                             "group flex items-center px-2 py-0 text-sm leading-6 font-medium rounded-md"
                                                                         )}
@@ -296,13 +296,13 @@ const Sidebar = () => {
             </Transition.Root>
 
             <div className="hidden lg:fixed lg:inset-y-0 lg:flex lg:w-64 lg:flex-col">
-                <div className="flex flex-grow flex-col overflow-y-auto bg-indigo-800 pt-5 pb-4">
-                    <div className="flex flex-shrink-0 items-center px-4">
+                <div className="flex flex-grow flex-col overflow-y-auto bg-teal-800 pt-5 pb-4">
+                    <div className="flex flex-shrink-0 items-center px-4 text-white">
                         <img
-                            className="h-8 w-auto"
-                            src="https://tailwindui.com/img/logos/mark.svg?color=cyan&shade=300"
-                            alt="Easywire logo"
-                        />
+                            className="h-8 w-auto mr-2"
+                            src="/logo-alt.png"
+                            alt="AydinMuamalat logo"
+                        /> AydinMuamalat
                     </div>
                     {/* <div className="mt-5 px-3">
                         <label htmlFor="search" className="sr-only">
@@ -328,7 +328,7 @@ const Sidebar = () => {
                         </div>
                     </div> */}
                     <nav
-                        className="mt-5 flex flex-1 flex-col divide-y divide-cyan-800 overflow-y-auto"
+                        className="mt-5 flex flex-1 flex-col divide-y divide-teal-800 overflow-y-auto"
                         aria-label="Sidebar"
                     >
                         <div className="space-y-1 px-2">
@@ -341,7 +341,7 @@ const Sidebar = () => {
                                         <button
                                             className={
                                                 classNames(
-                                                    (activeDropdown == item?.name ? "bg-indigo-600 text-white" : "text-gray-100 hover:text-white hover:bg-indigo-600"),
+                                                    (activeDropdown == item?.name ? "bg-teal-600 text-white" : "text-gray-100 hover:text-white hover:bg-teal-600"),
                                                     "relative  group flex items-center px-2 py-2 text-sm leading-6 font-medium rounded-md w-full"
                                                 )
                                             }
@@ -374,8 +374,8 @@ const Sidebar = () => {
                                                             className={
                                                                 classNames(
                                                                     (activePatch == subItem.href
-                                                                        ? "text-gray-300 bg-indigo-600"
-                                                                        : "text-gray-300/80 hover:text-gray-300 hover:bg-indigo-600"
+                                                                        ? "text-gray-300 bg-teal-600"
+                                                                        : "text-gray-300/80 hover:text-gray-300 hover:bg-teal-600"
                                                                     ),
                                                                     " group flex items-center px-2 py-0 text-sm leading-6 font-medium rounded-md"
                                                                 )
@@ -397,8 +397,8 @@ const Sidebar = () => {
                                                 path: useResolvedPath(item.href)
                                                     .pathname,
                                             })
-                                                ? "bg-indigo-600 text-white"
-                                                : "text-gray-100 hover:text-white hover:bg-indigo-600",
+                                                ? "bg-teal-600 text-white"
+                                                : "text-gray-100 hover:text-white hover:bg-teal-600",
                                             "group flex items-center px-2 py-2 text-sm leading-6 font-medium rounded-md"
                                         )}
                                         aria-current={

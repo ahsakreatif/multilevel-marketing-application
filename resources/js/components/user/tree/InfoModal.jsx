@@ -37,7 +37,7 @@ export default function InfoModal({isOpen, setIsOpen, closeModal, userId}) {
                 leaveTo="opacity-0 scale-95"
               >
                 <div className="inline-block w-full max-w-2xl pb-4 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-[3px]">
-                    <div className="flex justify-between items-center bg-indigo-700 text-white py-4 px-4 mb-6 font-medium text-lg rounded-t-[3px]">
+                    <div className="flex justify-between items-center bg-teal-700 text-white py-4 px-4 mb-6 font-medium text-lg rounded-t-[3px]">
                         <h1 className='text-center'>{user?.full_name}</h1>
                         <button onClick={closeModal} className="outline-none text-red-600 hover:text-gray-200">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8">
